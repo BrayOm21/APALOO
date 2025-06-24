@@ -1,6 +1,5 @@
-public class Dentro 
-{
-    public static void main(String[] args) 
+public class RegresaEntero 
+{    public static void main(String[] args) 
     {
         String a = "Hola mundo";
         String b = "Hola";
@@ -32,5 +31,5 @@ public class Dentro
             }
         }
         return -1;
-    }
+    }    
 }
