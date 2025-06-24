@@ -18,10 +18,7 @@ public class Cadena
         int total = 0;
         for (int i = 0; i < c.length; i++) 
         {
-            if (Character.isDigit(c[i])) 
-            {
-                total++;
-            }
+            
         }
         return total;
     }
