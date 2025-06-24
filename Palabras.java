@@ -2,7 +2,7 @@ public class Palabras
 {
     public static void main(String[] args) 
     {
-        String texto = "Hola mundo";
+        String texto = "Un dia vi una vaca vestida de uniforme";
         int total = regresaEntero(texto);
         System.out.println(total);
     }
