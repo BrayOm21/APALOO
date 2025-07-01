@@ -2,7 +2,7 @@ public class ProgramaP5
 {
     public static void main(String[] args) 
     {
-        String texto = "Un dia vi una vaca vestida de uniforme";
+        String texto = "Hola$mundo 123 jaja";
         int total = regresaEntero(texto);
         System.out.println(total);
     }
