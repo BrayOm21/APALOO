@@ -2,8 +2,7 @@
 {
     public static void main(String[] args)
     {
-        // Ejemplo de uso del método mcm
-        int[] numeros1 = {4,6,8,12,16};
+        int[] numeros1 = {4,6,8,12,18};
         int datos = mcm(numeros1);
         System.out.println(datos);
     }
