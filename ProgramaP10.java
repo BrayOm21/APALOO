@@ -1,4 +1,4 @@
-    public class Mcm
+    public class ProgramaP10
 {
     public static void main(String[] args)
     {
