@@ -30,6 +30,6 @@ public class SelecciónDirecta
         {
             System.out.print(a[i]+", ");
         }
-        System.out.println("]");
+        System.out.print("]");
     } 
 }
