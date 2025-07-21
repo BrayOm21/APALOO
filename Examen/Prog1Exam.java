@@ -1,3 +1,4 @@
+package Examen;
 public class Prog1Exam 
 {
     public static void main(String[] args) 

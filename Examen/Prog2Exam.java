@@ -1,3 +1,4 @@
+package Examen;
 class Coordenada
 { 
     public int renglon;

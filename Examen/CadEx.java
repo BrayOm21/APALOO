@@ -1,3 +1,4 @@
+package Examen;
 class Nodo 
 {
     CadEx dato;
