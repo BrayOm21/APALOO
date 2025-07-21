@@ -19,6 +19,7 @@ public class Menu
                 Enteros.ordenaEnteros();
                 break;
                 case 2:
+                Caracteres.ordenarCar();
                 break;
                 case 3:
                 break;

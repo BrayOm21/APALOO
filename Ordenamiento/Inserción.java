@@ -2,7 +2,7 @@ package Ordenamiento;
 
 public class Inserción 
 {
-    public static void ordenarint(int [] a)
+    public static void ordenarInt(int [] a)
     {
         for(int i = 1; i < a.length; i++)
         {

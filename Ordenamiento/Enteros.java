@@ -26,19 +26,19 @@ public class Enteros
             switch (opc) 
             {
                 case 1:
-                Burbuja.ordenarint(arreglo); 
+                Burbuja.ordenarInt(arreglo); 
                 break;
                 case 2:
-                Selección.ordenarint(arreglo);
+                Selección.ordenarInt(arreglo);
                 break;
                 case 3:
-                Inserción.ordenarint(arreglo); 
+                Inserción.ordenarInt(arreglo); 
                 break;
                 default:
                 System.out.println("Selecciona una opcion valida");
                 break;
             }
-            System.out.println("¿Quieres ordenar tu arreglo por otro metodo? 1.Si 2.No");
+            System.out.println("\n¿Quieres ordenar tu arreglo por otro metodo? 1.Si 2.No"); 
             s = sc.nextInt();
         } while (s == 1);
         return;

@@ -2,7 +2,7 @@ package Ordenamiento;
 
 public class Selección 
 {
-    public static void ordenarint(int [] a)
+    public static void ordenarInt(int [] a)
     {
         for(int i=0; i<a.length-1;i++)
         {
@@ -28,6 +28,24 @@ public class Selección
             System.out.print(a[i]+", ");
         }
         System.out.print("]");
+    }
+    public static void ordenarCaracter(char [] a)
+    {
+        for(int i = 0; i<a.length; i++)
+        {
+            int menor = i;
+            char aux;
+            for(int j= i+1; j<a.length; j++)
+            {
+                if(a[j]<a[menor])
+                {
+                    aux=a[i];
+                    a[i]=a[menor];
+                    a[menor]=aux;
+                }
+            }
+
+        }
     }
     
 }
