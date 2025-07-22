@@ -19,9 +19,10 @@ public class Menu
                 Enteros.ordenaEnteros();
                 break;
                 case 2:
-                Caracteres.ordenarCar();
+                Caracteres.ordenarCaracter();
                 break;
                 case 3:
+                //Cadenas.ordenarCadenas();
                 break;
                 default:
                 System.out.println("Selecciona una opcion valida");

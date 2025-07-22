@@ -2,7 +2,7 @@ package Ordenamiento;
 import java.util.Scanner;
 public class Caracteres 
 {
-    public static void ordenarCar()
+    public static void ordenarCaracter()
     {
         int opc;
         int s=0;
@@ -29,10 +29,10 @@ public class Caracteres
                 Burbuja.ordenarCaracter(arreglo); 
                 break;
                 case 2:
-                //Selección.ordenarint(arreglo);
+                Selección.ordenarCaracter(arreglo);
                 break;
                 case 3:
-                //Inserción.ordenarint(arreglo); 
+                Inserción.ordenarCaracter(arreglo); 
                 break;
                 default:
                 System.out.println("Selecciona una opcion valida");

@@ -14,13 +14,13 @@ public class Selección
                 {
                     menor=j;
                 }
-            }                
+            }
             if(i != menor)
             {
                 aux=a[i];
                 a[i]=a[menor];
                 a[menor]=aux;
-            }
+            }                
         }
         System.out.print("[");
         for (int i = 0; i < a.length; i++) 
@@ -39,13 +39,22 @@ public class Selección
             {
                 if(a[j]<a[menor])
                 {
-                    aux=a[i];
-                    a[i]=a[menor];
-                    a[menor]=aux;
+                    menor=j;
                 }
             }
-
+            if(i != menor)
+            {
+                aux=a[i];
+                a[i]=a[menor];
+                a[menor]=aux;
+            }
         }
+        System.out.print("[");
+        for (int i = 0; i < a.length; i++) 
+        {
+            System.out.print(a[i]+", ");
+        }
+        System.out.print("]");
     }
     
 }

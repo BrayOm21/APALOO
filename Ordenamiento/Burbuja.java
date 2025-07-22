@@ -23,6 +23,7 @@ public class Burbuja
         }
         System.out.print("]");
     }
+    
     public static void ordenarCaracter(char [] a)
     {
         for(int i=0; i<a.length; i++)
@@ -43,5 +44,7 @@ public class Burbuja
             System.out.print(a[i]+", ");
         }
         System.out.print("]");
-    }    
+    }
+
+    
 }
