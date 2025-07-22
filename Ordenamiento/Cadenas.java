@@ -26,10 +26,10 @@ public class Cadenas
             switch (opc) 
             {
                 case 1:
-                //Burbuja.ordenarCaracter(arreglo); 
+                Burbuja.ordenarCadenas(arreglo); 
                 break;
                 case 2:
-                //Selección.ordenarCaracter(arreglo);
+                Selección.ordenarCadenas(arreglo);
                 break;
                 case 3:
                 //Inserción.ordenarCaracter(arreglo); 
