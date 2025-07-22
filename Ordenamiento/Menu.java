@@ -22,7 +22,7 @@ public class Menu
                 Caracteres.ordenarCaracter();
                 break;
                 case 3:
-                //Cadenas.ordenarCadenas();
+                Cadenas.ordenarCadenas();
                 break;
                 default:
                 System.out.println("Selecciona una opcion valida");

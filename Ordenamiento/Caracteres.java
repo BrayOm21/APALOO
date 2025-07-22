@@ -8,7 +8,7 @@ public class Caracteres
         int s=0;
         Scanner sc = new Scanner(System.in);
         int n;
-        System.out.println("Cuantos numeros quieres ordenar?");
+        System.out.println("Cuantos caracteres quieres ordenar?");
         n = sc.nextInt();
         char[] arreglo = new char[n];
         for (int i = 0; i < n; i++)
