@@ -29,6 +29,7 @@ public class Selección
         }
         System.out.print("]");
     }
+    
     public static void ordenarCaracter(char [] a)
     {
         for(int i = 0; i<a.length; i++)
