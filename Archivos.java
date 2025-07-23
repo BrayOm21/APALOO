@@ -6,7 +6,7 @@ public class Archivos
 {
     public static void main(String[] args) throws FileNotFoundException, IOException
     {
-        leerTexto("C:\\Users\\braya\\Documents\\Git\\APALOO\\Java\\pg1513.txt");   
+        //leerTexto("C:\\Users\\braya\\Documents\\Git\\APALOO\\Java\\pg1513.txt");   
     }    
     public static void leerTexto(String arch) throws FileNotFoundException, IOException
     {
