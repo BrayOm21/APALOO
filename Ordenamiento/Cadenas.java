@@ -32,7 +32,7 @@ public class Cadenas
                 Selección.ordenarCadenas(arreglo);
                 break;
                 case 3:
-                //Inserción.ordenarCaracter(arreglo); 
+                Inserción.ordenarCadenas(arreglo); 
                 break;
                 default:
                 System.out.println("Selecciona una opcion valida");
