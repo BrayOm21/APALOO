@@ -1,6 +1,8 @@
+import java.util.Arrays;
+
 public class Recursividad 
 {
-    public static void main(String[] args) 
+    public static void main(String[] args) throws InterruptedException, InstantiationException
     {    
         int i = 5;
         int [] arr = {1,2,3,4};
@@ -14,6 +16,7 @@ public class Recursividad
         System.out.println(mul(5, 3));
         System.out.println(pot(5, 3));
         System.out.println(mcd(15,5));
+        mov(3, 4);
     }
     public static int recfactorial (int i)
     {
@@ -112,5 +115,27 @@ public class Recursividad
             return mcd(a-b,  a);
         }
         return mcd(a,b-a);
+    }
+    public static void mov(char [] path, int i, int x, int y) throws InstantiationException
+    {
+        if(x==0 && y==0)
+        {
+            System.out.println(Arrays.toString(path));
+        }
+        if(x>0)
+        {
+            path[i]='x';
+            mov(path, i+1, x-1,y);
+        }
+        if(y>0)
+        {
+            path[i]='y';
+            mov(path, i+1,  x ,y-1);
+        }
+    }
+    public static void mov(int x,int y) throws InterruptedException, InstantiationException
+    {
+        char [] path = new char[x+y];
+        mov(path, 0,x,y);
     }
 }
