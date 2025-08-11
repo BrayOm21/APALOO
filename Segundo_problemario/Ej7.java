@@ -1,4 +1,4 @@
-package ProblemarioEX;
+package Segundo_problemario;
 
 import java.util.Arrays;
 

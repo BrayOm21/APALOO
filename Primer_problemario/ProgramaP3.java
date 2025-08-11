@@ -1,3 +1,5 @@
+package Primer_problemario;
+
 public class ProgramaP3 
 {
     public static void main(String[] args) 

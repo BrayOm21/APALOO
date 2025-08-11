@@ -1,3 +1,4 @@
+package Ej_lab;
 public class ComparaStrings 
 {
     public static int comparaString(String s1, String s2)

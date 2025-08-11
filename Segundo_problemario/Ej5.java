@@ -1,4 +1,4 @@
-package ProblemarioEX;
+package Segundo_problemario;
 
 public class Ej5 
 {

@@ -1,3 +1,4 @@
+package Ej_lab;
 public class InserDirecString 
 {
     public static void main(String[] args) 

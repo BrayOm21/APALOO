@@ -1,4 +1,6 @@
-    public class ProgramaP10
+package Primer_problemario;    
+    
+public class ProgramaP10
 {
     public static void main(String[] args)
     {

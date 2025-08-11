@@ -1,4 +1,5 @@
-public class Reinas 
+package Ej_lab;
+public class Torres 
 {
     static int numsol = 1; 
     public static void main(String[] args) 
@@ -9,11 +10,7 @@ public class Reinas
     }
     public static boolean seMatan(int r1, int c1, int r2, int c2)
     {
-        if(r1==r2 || c1==c2)
-        {
-            return true;
-        }
-        return Math.abs(r1-r2) == Math.abs(c2-c1);
+            return (r1 == r2) || (c1 == c2);
     }
     public static boolean posibilidad(int[]reinas, int n, int c)
     {
@@ -62,5 +59,5 @@ public class Reinas
                 coloca(n+1,reinas);
             }
         }
-    } 
+    }
 }
