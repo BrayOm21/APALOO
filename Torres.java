@@ -58,5 +58,5 @@ public class Torres
                 coloca(n+1,reinas);
             }
         }
-    }    
+    }
 }
