@@ -1,34 +1,43 @@
 package Segundo_problemario;
 
-public class Ej9 {
-    static class Nodo {
+public class Ej9 
+{
+    static class Nodo 
+    {
         int dato;
         Nodo siguiente;
         
-        public Nodo(int dato) {
+        public Nodo(int dato) 
+        {
             this.dato = dato;
             this.siguiente = null;
         }
         
-        public Nodo(int dato, Nodo siguiente) {
+        public Nodo(int dato, Nodo siguiente) 
+        {
             this.dato = dato;
             this.siguiente = siguiente;
         }
     }
 
-    static class Cola {
+    static class Cola 
+    {
         private Nodo frente;
         private Nodo fin;
 
-        public void insertaOrdR(int dato) {
+        public void insertaOrdR(int dato) 
+        {
             Nodo nuevo = new Nodo(dato);
-            if (frente == null || dato <= frente.dato) {
+            if (frente == null || dato <= frente.dato) 
+            {
                 nuevo.siguiente = frente;
                 frente = nuevo;
                 if (fin == null) fin = frente;
-            } else {
+            } else 
+            {
                 Nodo actual = frente;
-                while (actual.siguiente != null && actual.siguiente.dato < dato) {
+                while (actual.siguiente != null && actual.siguiente.dato < dato) 
+                {
                     actual = actual.siguiente;
                 }
                 nuevo.siguiente = actual.siguiente;
@@ -37,17 +46,20 @@ public class Ej9 {
             }
         }
 
-        public Cola clonar() {
+        public Cola clonar() 
+        {
             Cola clon = new Cola();
             Nodo actual = frente;
-            while (actual != null) {
+            while (actual != null) 
+            {
                 clon.insertaOrdR(actual.dato);
                 actual = actual.siguiente;
             }
             return clon;
         }
 
-        public boolean iguales(Cola otra) {
+        public boolean iguales(Cola otra) 
+        {
             if (this.frente == null && otra.frente == null) return true;
             if (this.frente == null || otra.frente == null) return false;
             if (this.frente.dato != otra.frente.dato) return false;
@@ -59,12 +71,14 @@ public class Ej9 {
             return resultado;
         }
 
-        public Nodo ultimo() {
+        public Nodo ultimo() 
+        {
             return fin;
         }
 
         @Override
-        public String toString() {
+        public String toString() 
+        {
             StringBuilder sb = new StringBuilder("[");
             Nodo actual = frente;
             while (actual != null) {
@@ -77,7 +91,8 @@ public class Ej9 {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Cola c = new Cola();
         c.insertaOrdR(20);
         c.insertaOrdR(10);
